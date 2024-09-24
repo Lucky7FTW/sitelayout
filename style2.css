@@ -10,36 +10,35 @@ body {
 }
 
 .container {
-    display: grid;
-    grid-template-areas: 
-        "header header"
-        "sidebar content"
-        "footer footer";
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
 }
 
 header {
-    grid-area: header;
     background-color: #621172;
     padding: 10px;
     color: white;
     text-align: center;
 }
 
+.main {
+    display: flex;
+    flex: 1;
+}
+
 .sidebar {
-    grid-area: sidebar;
     background-color: #f4f4f4;
     padding: 15px;
+    width: 200px; 
 }
 
 .content {
-    grid-area: content;
+    padding: 15px;
+    flex: 1; 
 }
 
 footer {
-    grid-area: footer;
     background-color: #333;
     padding: 10px;
     color: white;
