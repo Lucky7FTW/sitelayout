@@ -78,11 +78,11 @@ nav ul li a:hover {
     background-color: #575757;
 }
 
-a{
+a.layout-change{
     text-decoration: none;
     color: #ffffff
 
 }
-a:hover{
+a.layout-change:hover{
     background-color: #acacac;
 }
