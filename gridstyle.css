@@ -77,3 +77,12 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #575757;
 }
+
+a{
+    text-decoration: none;
+    color: #ffffff
+
+}
+a:hover{
+    background-color: #acacac;
+}
