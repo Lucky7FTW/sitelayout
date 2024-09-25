@@ -29,7 +29,6 @@ header {
 
 .sidebar {
     width: 200px;
-    background-color: #f4f4f4;
     padding: 15px;
 }
 
@@ -46,6 +45,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px    ;
 }
 
 nav {
